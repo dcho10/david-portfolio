@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Roboto", sans-serif;
+    padding: 0 20px;
+}
+
+.header h1 a {
+    font-size: 62px;
+    font-weight: bold;
+    color: var(--quinary);
+}
+
+.header-links {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.header-links a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: color 0.5s ease;
+    
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.header-links a:hover {
+    background: linear-gradient(120deg, var(--secondary), var(--quarternary), var(--secondary));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    animation: gradientAnimation 3s ease infinite alternate;
+}
