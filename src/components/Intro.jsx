@@ -9,7 +9,7 @@ export default function Intro() {
                 <h2> Welcome! </h2>
                 <p> My name is David and I'm an emerging full-stack developer! </p>
                 <section className="buttons">
-                    <a href="#about"><button type="button"> About </button></a>
+                    <a href="#projects"><button type="button"> Projects </button></a>
                     <a href="#resume"><button type="button"> Resume </button></a>
                 </section>
             </section>
