@@ -1,6 +1,6 @@
 import "./App.css";
-import { Outlet } from "react-router-dom";
 import Header from "./components/Header"
+import Intro from "./components/Intro"
 // import Footer from "./components/Footer"
 
 
@@ -9,7 +9,7 @@ export default function App() {
         <>
             <section className="main-container">
                 <Header />
-                <Outlet />
+                <Intro />
                 {/* <Footer /> */}
             </section>
         </>

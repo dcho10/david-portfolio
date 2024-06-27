@@ -1,0 +1,47 @@
+.intro-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+}
+
+.intro-card img {
+    max-width: 25%;
+}
+
+.intro-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+.intro-info h2 {
+    color: white;
+    font-size: 4em;
+}
+
+.intro-info p {
+    font-size: 2em;
+    color: var(--quinary);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 5%;
+    gap: 5em;
+}
+
+.buttons a button {
+    height: 3em;
+    width: 10em;
+    background-color: var(--quarternary);
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+.buttons a button:hover {
+    cursor: pointer;
+}
