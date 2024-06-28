@@ -5,5 +5,19 @@
         "I love baseball, basketball, and wrestling.",
         "My favourite teams are the Toronto Blue Jays, and Toronto Raptors.",
         "I previously graduated in Accounting, but decided to pursue software engineering in 2023."
-    ]
+    ],
+    "skills": [
+        {
+          "title": "Front-end",
+          "items": [" HTML", "CSS", "React", "More to come..."]
+        },
+        {
+          "title": "Back-end",
+          "items": ["SQL (MySQL)", "NoSQL (MongoDB)", "JavaScript", "More to come..."]
+        },
+        {
+          "title": "Libraries",
+          "items": ["Node.js", "Express", "Mongoose", "Sequelize", "More to come..."]
+        }
+      ]
 }

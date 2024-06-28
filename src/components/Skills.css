@@ -1,0 +1,25 @@
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    padding: 2% 0;
+}
+
+.skills-container h4 {
+    color: white;
+    font-size: 4em;
+}
+
+.skills-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.card, .card h5, .card li {
+    background-color: var(--quinary);
+}
+
+
