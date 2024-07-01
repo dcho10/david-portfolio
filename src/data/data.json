@@ -1,0 +1,63 @@
+{
+    "about": [
+        "I am born and raised from Toronto!",
+        "My hobbies include: cooking, baking, and being active (sports, working out).",
+        "I love baseball, basketball, and wrestling.",
+        "My favourite teams are the Toronto Blue Jays, and Toronto Raptors.",
+        "I previously graduated in Accounting, but decided to pursue software engineering in 2023."
+    ],
+    "skills": [
+        {
+          "title": "Front-end",
+          "items": [" HTML", "CSS", "React", "More to come..."]
+        },
+        {
+          "title": "Back-end",
+          "items": ["SQL (MySQL)", "NoSQL (MongoDB)", "JavaScript", "More to come..."]
+        },
+        {
+          "title": "Libraries",
+          "items": ["Node.js", "Express", "Mongoose", "Sequelize", "More to come..."]
+        }
+    ],
+    "projects": [
+      {
+        "id": "1",
+        "title": "Vintage Vault",
+        "image":"./assets/vintage-vault.png",
+        "technologies": [
+          "React",
+          "CSS",
+          "Express",
+          "MongoDB"
+        ],
+        "description": "This tech blog app was created on my own in an attempt to create a full app from front to back, and using my own API. When a user is on the home page, they will see all the posts that users have posted. They can view each post and it's interactions, and engage in them by commenting on them. Users can also create an account, and access their dashboard where they can view all their posts and check out the engagement on each. Future development includes searching for posts that a user would like to read more about."
+      },
+      {
+        "id": "2",
+        "title": "Tech Blog",
+        "image":"./assets/tech-blog.png",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "Express",
+          "SQL"
+        ],
+        "description": "This tech blog app was created on my own in an attempt to create a full app from front to back, and using my own API. When a user is on the home page, they will see all the posts that users have posted. They can view each post and it's interactions, and engage in them by commenting on them. Users can also create an account, and access their dashboard where they can view all their posts and check out the engagement on each. Future development includes searching for posts that a user would like to read more about."
+      },
+      {
+        "id": "3",
+        "title": "Motor Matcher",
+        "image": "./assets/motor-matcher.png",
+        "technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Express",
+            "SQL"
+        ],
+        "description": "This car trading app was made in a collaborative effort, that has functionality from front to back. When a user is on the home page, they will be able to search for listings, or create an account to post a listing. When a user sees a listing that they are interested in, they would be able to communicate with the seller through email and be resposnbile for arranging their own payment methods." 
+      }
+    ]
+}

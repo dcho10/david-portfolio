@@ -1,5 +1,5 @@
 import "./Intro.css"
-import Avatar from "../assets/avatar.png";
+import Avatar from "/assets/avatar.png";
 
 export default function Intro() {
     return (

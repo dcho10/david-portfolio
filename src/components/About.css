@@ -1,9 +1,9 @@
 .about {
-    font-family: "Montserrat", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-family: "Montserrat", sans-serif;
     padding: 2% 0;
 }
 

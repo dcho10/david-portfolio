@@ -22,4 +22,13 @@
     background-color: var(--quinary);
 }
 
+.card h5 {
+    font-size: 2em;
+}
+
+.card li {
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
 

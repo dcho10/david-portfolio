@@ -1,6 +1,6 @@
 import "./About.css"
 
-import aboutData from "../data/about.json"
+import aboutData from "../data/data.json"
 
 export default function About() {
     return (

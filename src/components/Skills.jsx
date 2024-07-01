@@ -1,6 +1,6 @@
 import "./Skills.css"
 
-import skillsData from "../data/about.json"
+import skillsData from "../data/data.json"
 
 export default function Skills() {
     return (
