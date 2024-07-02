@@ -1,0 +1,31 @@
+footer {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8),
+    inset 0 0 5px rgba(0, 0, 0, 0.5);  
+
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    padding: 2% 0;
+}
+
+.footer-section h7 {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+}
+
+.footer-section p, .footer-section a {
+    color: var(--quinary);
+    line-height: 1.5;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 10em;
+}

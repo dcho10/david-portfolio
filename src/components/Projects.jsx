@@ -5,7 +5,7 @@ import data from "../data/data.json";
 export default function Projects() {
     return (
         <>
-        <container className="projects-container">
+        <container className="projects-container" id="projects">
             <h5> Projects </h5>
                 <section className="projects">
 

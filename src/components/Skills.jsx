@@ -5,7 +5,7 @@ import skillsData from "../data/data.json"
 export default function Skills() {
     return (
         <>
-        <container className="skills-container">
+        <container className="skills-container" id="skills">
             <h4> Skills Include... </h4>
             <section className="skills-card">
                 {skillsData.skills.map((skill, index) => (
