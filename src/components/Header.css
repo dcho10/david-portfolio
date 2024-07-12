@@ -19,8 +19,8 @@
         -5px 5px 1px var(--secondary),
 
     /* SHADOW: (horizontal offset, vertical offset, blur radius, rgba = red, green, blue, alpha) */ 
-    -10px 18px 6px rgba( 16, 16, 16, 0.4),
-    -20px 22px 10px rgba( 16, 16, 16, 0.2);
+        -10px 18px 6px rgba( 16, 16, 16, 0.4),
+        -20px 22px 10px rgba( 16, 16, 16, 0.2);
 }
 
 .header-links {
@@ -29,7 +29,6 @@
     justify-content: center;
     align-items: center;
     gap: 1.5em;
-    
 }
 
 .header-links a {
@@ -63,7 +62,7 @@
     top: 0;
     transform-origin: 100% 50%;
     transform: translate3d(200%, 0, 0);
-    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
+    transition: transform 0.3s cubic-bezier(0.76, 0, 0.24, 1);
     color: var(--quinary);
 }
 
