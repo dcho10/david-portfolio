@@ -1,4 +1,12 @@
 {
+    "introduction": [
+        "I am a passionate software engineer who loves to create solutions to modern day problems.",
+        "I am passionate about front-end design and want to further enhance my skillset!"
+    ],
+    "background":[
+      "I graduated from the edX Bootcamp in Full-Stack Flex Development.",
+      "I have a certificate for completing the boocamp with the University of Toronto."
+    ],
     "about": [
         "I am born and raised from Toronto!",
         "My hobbies include: cooking, baking, and being active (sports, working out).",
@@ -9,15 +17,15 @@
     "skills": [
         {
           "title": "Front-end",
-          "items": [" HTML", "CSS", "React", "More to come..."]
+          "items": [ "./SVG/html-logo.svg", "./SVG/css-logo.svg", "./SVG/react-logo.svg"]
         },
         {
           "title": "Back-end",
-          "items": ["SQL (MySQL)", "NoSQL (MongoDB)", "JavaScript", "More to come..."]
+          "items": ["./SVG/mysql-logo.svg", "./SVG/mongodb-logo.svg", "./SVG/javascript-logo.svg"]
         },
         {
           "title": "Libraries",
-          "items": ["Node.js", "Express", "Mongoose", "Sequelize", "More to come..."]
+          "items": ["./SVG/nodejs-logo.svg", "./SVG/expressjs-logo.svg", "./SVG/mongoose-logo.svg", "./SVG/sequelizejs-logo.svg"]
         }
     ],
     "projects": [

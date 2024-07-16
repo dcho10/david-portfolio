@@ -18,7 +18,7 @@ export default function Intro() {
         <section className="intro-card" id="about">
             <section className="intro-info">
                 <h2> Welcome! </h2>
-                <p> My name is David and I am an emerging full-stack developer! </p>
+                <p> My name is David Cho and I am an emerging full-stack developer! </p>
                 <section className="buttons">
                     <a href="#projects"><button type="button" className={`fadeInButton ${showButtons ? 'show' : ''}`} style={{ animationDelay: '1s' }}> Projects </button></a>
                     <a href="#resume"><button type="button" className={`fadeInButton ${showButtons ? 'show' : ''}`} style={{ animationDelay: '1.5s' }}> Resume </button></a>
