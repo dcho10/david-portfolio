@@ -5,11 +5,10 @@ import data from "../data/data.json"
 export default function About() {
     return (
         <>
-
         <container className="about" id="about">
             <h3> About Me! </h3>
             <section className="about-cards">
-                <section className="introduction">
+                <section className="introduction about-card about-card-0">
                     <h4> Introduction </h4>
                     <ul>
                         {data.introduction.map((introItem, index) => (
@@ -20,7 +19,7 @@ export default function About() {
                     </ul>
                 </section>
 
-                <section className="background">
+                <section className="background about-card about-card-1">
                     <h4> Background </h4>
                     <ul>
                         {data.background.map((backgroundItem, index) => (
@@ -31,7 +30,7 @@ export default function About() {
                     </ul>
                 </section>
 
-                <section className="skills">
+                <section className="skills about-card about-card-2">
                     <h4> Skills Include... </h4>
                     {/* skillsData = object from data.json, skills = skills object */}
                     <section className="skills-wrapper">
@@ -48,7 +47,7 @@ export default function About() {
                     </section>
                 </section>
 
-                <section className="personal">
+                <section className="personal about-card about-card-3">
                     <h4> Personal </h4>
                     <ul>
                         {data.about.map((aboutItem, index) => (
