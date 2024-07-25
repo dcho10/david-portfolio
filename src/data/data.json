@@ -1,7 +1,8 @@
 {
     "introduction": [
-        "I am a passionate software engineer who loves to create solutions to modern day problems.",
-        "I am passionate about front-end design and want to further enhance my skillset!"
+        "I am a passionate software engineer who loves to create solutions to modern day problems!",
+        "I am passionate about front-end design and want to further enhance my skillset!",
+        "I have back-end experience as well, and want to further my knowledge and abilitites!"
     ],
     "background":[
       "I graduated from the edX Bootcamp in Full-Stack Flex Development.",
@@ -17,15 +18,18 @@
     "skills": [
         {
           "title": "Front-end",
-          "items": [ "./SVG/html-logo.svg", "./SVG/css-logo.svg", "./SVG/react-logo.svg"]
+          "items": [ "./SVG/html-logo.svg", "./SVG/css-logo.svg", "./SVG/react-logo.svg"],
+          "names": ["HTML", "CSS", "React"]
         },
         {
           "title": "Back-end",
-          "items": ["./SVG/mysql-logo.svg", "./SVG/mongodb-logo.svg", "./SVG/javascript-logo.svg"]
+          "items": ["./SVG/mysql-logo.svg", "./SVG/mongodb-logo.svg", "./SVG/javascript-logo.svg"],
+          "names": ["MySQL", "MongoDB", "JavaScript"]
         },
         {
           "title": "Libraries",
-          "items": ["./SVG/nodejs-logo.svg", "./SVG/expressjs-logo.svg", "./SVG/mongoose-logo.svg", "./SVG/sequelizejs-logo.svg"]
+          "items": ["./SVG/nodejs-logo.svg", "./SVG/expressjs-logo.svg", "./SVG/mongoose-logo.svg", "./SVG/sequelizejs-logo.svg"],
+          "names": ["Node.js", "Express.js", "Mongoose.js", "Sequelize.js"]
         }
     ],
     "projects": [

@@ -5,12 +5,10 @@ import data from "../data/data.json";
 export default function Projects() {
     return (
         <>
-        <container className="projects-container" id="projects">
+        <section className="projects" id="projects">
             <h5> Projects </h5>
-                <section className="projects">
-
-
-                    {data.projects.map((project) => (
+                {/* <container className="projects-container"> */}
+                    {/* {data.projects.map((project) => (
                         <section className="project-card" key={project.id}>
                             <h6> {project.title} </h6>
                             <img src={project.image} alt={project.title} className="project-image" />
@@ -25,9 +23,36 @@ export default function Projects() {
                                 <p> 2024 DAVID CHO </p>
                             </section>
                         </section>
-                    ))}
-                </section>
-        </container>
+                    ))} */}
+                {/* </container> */}
+
+                <container className="project-container">
+                    <section className="project-card">
+                        <img src="./assets/vintage-vault.png"></img>
+                        <section className="project-info">
+                            <h6> Vintage Vault</h6>
+                            <p> This tech blog app was created on my own in an attempt to create a full app from front to back, and using my own API. When a user is on the home page, they will see all the posts that users have posted. They can view each post and it's interactions, and engage in them by commenting on them. Users can also create an account, and access their dashboard where they can view all their posts and check out the engagement on each. Future development includes searching for posts that a user would like to read more about.</p>
+                        </section>
+                    </section>
+
+                    <section className="project-card">
+                        <img src="./assets/vintage-vault.png"></img>
+                        <section className="project-info">
+                            <h6> Vintage Vault</h6>
+                            <p> This tech blog app was created on my own in an attempt to create a full app from front to back, and using my own API. When a user is on the home page, they will see all the posts that users have posted. They can view each post and it's interactions, and engage in them by commenting on them. Users can also create an account, and access their dashboard where they can view all their posts and check out the engagement on each. Future development includes searching for posts that a user would like to read more about.</p>
+                        </section>
+
+                    </section>
+
+                    <section className="project-card">
+                        <img src="./assets/vintage-vault.png"></img>
+                        <section className="project-info">
+                            <h6> Vintage Vault</h6>
+                            <p> This tech blog app was created on my own in an attempt to create a full app from front to back, and using my own API. When a user is on the home page, they will see all the posts that users have posted. They can view each post and it's interactions, and engage in them by commenting on them. Users can also create an account, and access their dashboard where they can view all their posts and check out the engagement on each. Future development includes searching for posts that a user would like to read more about.</p>
+                        </section>
+                    </section>
+                </container>
+        </section>
         </>
     )
 }

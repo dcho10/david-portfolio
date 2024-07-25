@@ -1,4 +1,4 @@
-.about {
+.skills {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,7 +7,7 @@
     padding: 2% 0;
 }
 
-.about h3 {
+.skills h3 {
     color: white;
     font-size: 4em;
     text-shadow: 
@@ -25,43 +25,50 @@
         -40px 30px 60px rgba( 16, 16, 16, 0.4);
 }
 
-.introduction, .background, .personal {
-    padding: 1em;
+.skills-container {
+    display: grid;
+    gap: 2rem;
+    padding: 2rem;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+.skills img {
+    height: 5em;
+    width: 5em;
+}
+
+.skills-card {
     background-color: var(--quinary);
     color: var(--tertiary);
     border-radius: 1em;
+    padding: 1em;
     box-shadow: -0.3em 0.3em 0.5em var(--secondary);
     transition: box-shadow 0.3s, background-color 0.3s, border-color 0.3s, color 0.3s;
 }
 
-.introduction:hover, .background:hover, .personal:hover {
+.skills-card:hover {
     background-color: var(--secondary);
     transform: translateY(-10px);
     color: white;
     box-shadow: 0.3em -0.3em 0.5em var(--quinary);
 }
 
-.introduction li, .background li, .personal li {
-    line-height: 1.5;
-    padding: 0.5em 0;
+.item-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em;
 }
 
-h4 {
-    text-align: center;
-    font-size: 2em;
-    padding: 0.25em;
+.info ul {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 1em 0;
 }
 
-h5 {
-    text-align: center;
-    font-size: 1.5em;
-    padding: 0.25em;
-}
-
-.about-cards {
-    display: grid;
-    gap: 2rem;
-    padding: 2rem;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+.info p {
+    font-weight: bold;
 }
